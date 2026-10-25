@@ -3,7 +3,7 @@
 面向普通用户的照片动漫化与基础增强Web应用，第3组课程项目。
 
 ## 当前状态
-需求与协作准备阶段，尚无可运行版本。以下为计划功能。
+第一阶段需求与协作材料已入库，16项开发任务及M0—M3里程碑已登记，文档检查已配置。当前按M1排期推进应用实现。
 
 ## 首版
 - P0：单张JPEG/PNG上传、1种动漫风格、状态、对比、下载、隔离与清理。
@@ -45,8 +45,8 @@ flowchart LR
 
 ## 协作
 Issue → 分支 → Commit → PR → 非作者Review → CI → Merge → Release。
-见CONTRIBUTING.md。任务正文见docs/planning/issues/，创建后登记真实Issue号。
-仓库：https://github.com/HYwlkK/image-enhancement，课程Organization要求由组长核对。
+见CONTRIBUTING.md。16项任务均已建立Issue，编号、职责、里程碑和检查入口见[任务登记表](docs/planning/任务映射与证据.md)。
+仓库：https://github.com/HYwlkK/image-enhancement。
 
 ## 自主开发与许可
 本项目由第3组从零设计和开发，首版实现基于平滑、色彩量化、边缘提取和融合的动漫风格化流程，不使用预训练权重。
@@ -62,3 +62,5 @@ Issue → 分支 → Commit → PR → 非作者Review → CI → Merge → Rele
 - [分工与GitHub协作计划](第一阶段/附件2_第3组分工与GitHub协作计划.docx)
 - [16项任务正文](docs/planning/issues/)
 - [任务映射与证据登记](docs/planning/任务映射与证据.md)
+
+[文档检查](https://github.com/HYwlkK/image-enhancement/actions/workflows/docs.yml)

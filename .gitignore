@@ -230,3 +230,6 @@ uploads/
 outputs/
 logs/
 .stage1-work/
+
+# Local document validation output
+docs-validation.json
