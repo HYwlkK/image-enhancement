@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Course project frontend and image resources
+node_modules/
+.venv/
+*.pyc
+.env.*
+!.env.example
+coverage/
+.idea/
+.vscode/
+uploads/
+outputs/
+logs/
+.stage1-work/
