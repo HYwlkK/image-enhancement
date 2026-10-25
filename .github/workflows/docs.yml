@@ -1,0 +1,29 @@
+name: Documentation checks
+
+on:
+  push:
+    branches: [main, chore/stage1-task-tracking]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-documents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate requirements and task records
+        run: python scripts/validate_project_docs.py
+      - name: Upload document check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: document-validation
+          path: docs-validation.json
+          if-no-files-found: error
