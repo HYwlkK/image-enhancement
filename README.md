@@ -63,4 +63,4 @@ Issue → 分支 → Commit → PR → 非作者Review → CI → Merge → Rele
 - [16项任务正文](docs/planning/issues/)
 - [任务映射与证据登记](docs/planning/任务映射与证据.md)
 
-[文档检查](https://github.com/HYwlkK/image-enhancement/actions/workflows/docs.yml)
+[文档检查](https://github.com/HYwlkK/image-enhancement/actions/runs/40202551448)
