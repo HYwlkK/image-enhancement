@@ -45,7 +45,7 @@ flowchart LR
 
 ## 协作
 Issue → 分支 → Commit → PR → 非作者Review → CI → Merge → Release。
-见CONTRIBUTING.md。16项任务正文与协作模板通过后续协作材料PR补充。
+见CONTRIBUTING.md。任务正文见docs/planning/issues/，创建后登记真实Issue号。
 仓库：https://github.com/HYwlkK/image-enhancement，课程Organization要求由组长核对。
 
 ## 自主开发与许可
@@ -60,3 +60,5 @@ Issue → 分支 → Commit → PR → 非作者Review → CI → Merge → Rele
 - [第一次项目进展报告](第一阶段/《软件工程与项目管理》第3组第1次项目进展报告.docx)
 - [软件需求规格说明书](第一阶段/附件1_漫像交融软件需求规格说明书.docx)
 - [分工与GitHub协作计划](第一阶段/附件2_第3组分工与GitHub协作计划.docx)
+- [16项任务正文](docs/planning/issues/)
+- [任务映射与证据登记](docs/planning/任务映射与证据.md)
